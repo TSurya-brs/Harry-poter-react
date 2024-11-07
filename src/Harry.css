@@ -1,0 +1,65 @@
+div {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 300px; /* Decrease the width of the input box */
+  padding: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  display: block;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping to the next line */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 15px; /* Space between characters */
+  justify-content: center; /* Center the list horizontally */
+}
+
+li {
+  width: calc(25% - 15px); /* 4 items per row, minus space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+li img {
+  max-width: 100px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+li strong {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+li div {
+  font-size: 14px;
+  color: #555;
+}
+
+li.no-results {
+  color: red;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  width: 100%;
+}
