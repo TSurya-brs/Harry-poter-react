@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Harry-poter-react/static/css/main.b73a9fcb.css",
+    "main.js": "/Harry-poter-react/static/js/main.d5d01a01.js",
+    "static/js/453.1397abea.chunk.js": "/Harry-poter-react/static/js/453.1397abea.chunk.js",
+    "index.html": "/Harry-poter-react/index.html",
+    "main.b73a9fcb.css.map": "/Harry-poter-react/static/css/main.b73a9fcb.css.map",
+    "main.d5d01a01.js.map": "/Harry-poter-react/static/js/main.d5d01a01.js.map",
+    "453.1397abea.chunk.js.map": "/Harry-poter-react/static/js/453.1397abea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b73a9fcb.css",
+    "static/js/main.d5d01a01.js"
+  ]
+}
